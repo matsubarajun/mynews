@@ -21,6 +21,7 @@
                         </div>
                         <div class="col-md-6">
                             <p class="body mx-auto">{{ Str::limit($headline->body, 650) }}</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -52,6 +53,7 @@
                     </div>
                     <hr color="#c0c0c0">
                 @endforeach
+                <p>デプロイ復習中</p>
             </div>
         </div>
     </div>
